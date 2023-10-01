@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, View, Text, ImageBackground, TextInput, TouchableOpacity } from 'react-native';
+
+import { StyleSheet, View, Text, ImageBackground, TextInput, TouchableOpacity, Image } from 'react-native';
 
 const Bg = require('./Assets/Images/Login_bg.jpg');
 
@@ -25,8 +26,9 @@ const LoginScreen = () => {
         <TouchableOpacity style={styles.button}>
           <Text style={styles.buttonText}>Login</Text>
         </TouchableOpacity>
-      </View>
-    </ImageBackground>
+    </View>
+</ImageBackground>
+  
   );
 };
 
