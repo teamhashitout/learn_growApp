@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 
 import { Link } from "expo-router";
 import Footer from "./components/Footer";
+import Icon from 'react-native-vector-icons/Ionicons';
 
 
 
@@ -22,6 +23,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
+    height:'100vh',
     padding: 24,
   },
   main: {

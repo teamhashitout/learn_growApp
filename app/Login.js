@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { StyleSheet, View, Text, ImageBackground, TextInput, TouchableOpacity, Image } from 'react-native';
+import Footer from './components/Footer';
 
 const Bg = require('./Assets/Images/Login_bg.jpg');
 
@@ -31,6 +32,7 @@ const LoginScreen = () => {
             <Text style={styles.buttonText}>login</Text>
         </TouchableOpacity>
     </View>
+    <Footer/>
 </ImageBackground>
   
   );
