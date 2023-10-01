@@ -1,18 +1,18 @@
 import { Link } from 'expo-router';
-import {View, Text, StyleSheet} from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-const Footer =()=>{
-    return(
+const Footer = () => {
+    return (
         <View style={styles.container}>
             <Link href='/'>
-                <Icon name='home'  size={30} color="black" />
+                <Icon name='home' size={27} color="white" />
             </Link><Link href='/Login'>
-                <Icon name='person'  size={30} color="black" />
+                <Icon name='person' size={27} color="white" />
             </Link><Link href='/'>
-                <Icon name='clipboard'  size={30} color="black" />
+                <Icon name='clipboard' size={27} color="white" />
             </Link><Link href='/'>
-                <Icon name='home'  size={30} color="black" />
+                <Icon name='home' size={27} color="white" />
             </Link>
 
         </View>
@@ -22,22 +22,20 @@ const Footer =()=>{
 export default Footer;
 
 const styles = StyleSheet.create({
-    container:{
+    container: {
         boder: '2px black solid',
-        color: 'red',
         marginTop: 'auto',
-        // marginHorizontal:'auto',
-        width: '90%',
-        backgroundColor: '#F5B3B9',
+        width: '100%',
+        backgroundColor: '#f77272',
         marginBottom: '1rem',
-        height: '3.5rem',
-        borderRadius: 10,
+        
+        borderRadius: 5,
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-evenly',
         alignItems: 'center',
-        padding:5
-        
-        
-    }
+        paddingVertical: 15,
+    },
 })
+
+

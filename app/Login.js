@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     textTransform: 'uppercase',
     textAlign: 'center',
-    fontSize: 10,
+    fontSize: 12,
   },
   button: {
     backgroundColor: '#f5b3b9',
