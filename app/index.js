@@ -1,6 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
 import Nav from "./components/Nav";
+
 import { Link } from "expo-router";
+import Footer from "./components/Footer";
+
 
 
 export default function Page() {
@@ -10,6 +13,7 @@ export default function Page() {
       <Link href='/Login' >
         <Text>Login</Text>
       </Link>
+      <Footer/>
     </View>
   );
 }
