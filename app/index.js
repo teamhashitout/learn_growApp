@@ -1,11 +1,15 @@
 import { StyleSheet, Text, View } from "react-native";
 import Nav from "./components/Nav";
+import Icon from 'react-native-vector-icons/Ionicons';
+// import Profile from '../Assets/Images/Profile'
+
 
 
 export default function Page() {
   return (
     <View style={styles.container}>
       <Nav/>
+      <Icon  size={30} color="#900" />
     </View>
   );
 }
