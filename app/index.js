@@ -1,16 +1,11 @@
 import { StyleSheet, Text, View } from "react-native";
 import Nav from "./components/Nav";
-import { Link } from "expo-router";
 
 
 export default function Page() {
   return (
     <View style={styles.container}>
-      <Nav />
-      <Link href='/Login'>
-        <Text style={styles.title}>Login</Text>
-      </Link>
-      
+      <Nav/>
     </View>
   );
 }
